@@ -21,4 +21,3 @@ print(type(['Asabeneh', 'Python', 'Finland']))
 print(type("Jose de Jesus"))
 print(type("Hernández Gutiérrez"))
 print(type("México"))
-#Exercise 5

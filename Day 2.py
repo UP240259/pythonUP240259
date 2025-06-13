@@ -1,4 +1,5 @@
 #Day 2: 30 days of python programming'
+#Exercise 1:
 n='josé'
 print("tu nombre es: ",n)
 l= "Hernéndez Gutiérrez"
@@ -19,6 +20,7 @@ is_light_on= True
 canción, album, artista= "cut my lip", "trench", "Twenty one pilots"
 print("canción:",canción, "album: ", album,  "artista: ", artista)
 
+# Exercise 2:
 #clase de las variables utilizadas.
 print(type(n))
 print(type(l))
