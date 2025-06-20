@@ -22,7 +22,7 @@ print("Lista antes de modificar: ", it_companies)
 it_companies.insert(7, 'Alphabet')
 it_companies.insert(3, 'Nvidia')
 it_companies.remove('Amazon')
-it_companies.append('AMAZON')
+it_companies.append('Amazon')
 string=['Accenture']
 it_companies.extend(string)
 does_exist= 'IBM' in it_companies
