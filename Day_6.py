@@ -24,12 +24,6 @@ del food_stuff_tp
 #print(food_stuff_tp) #no existe porque se acaba de eliminar la tupla del codigo
 
 nordic_countries = ("Denmark","Finland","Iceland","Norway","Sweden",)
-if "Estonia" in nordic_countries:
-    print("Estonia is a nordic country")
-else:
-    print("Estonia is not a nordic country")
+print("Estonia" in nordic_countries) #Devuelve false.
+print("Iceland" in nordic_countries) #Devuelve true.
 
-if "Iceland" in nordic_countries:
-    print("Iceland is a nordic country")
-else:
-    print("Iceland is not a nordic country") 
