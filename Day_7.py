@@ -83,10 +83,11 @@ print(len(sete)) #Es mas pequeña proque quita los datos duplicados.
 
 #3
 frase = "I am a teacher and I love to inspire and teach people."
-word = frase.split()
-palbras_unicas = set(word)
+word = frase.split() #El .split() sirve para separar el string en partes más pequeñas.
+palbras_unicas = set(word) #Aquí ponemos el set() para convertir las palabras en conjunto.
 print("palbras unicas: ", palbras_unicas)
-print("Número de palbras unicas: ", len(palbras_unicas))
+print("Número de palbras unicas: ", len(palbras_unicas)) #Ponemos len() para contar cuantas palabras unicas tiene el conjunto.
+
 
 
 
