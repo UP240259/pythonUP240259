@@ -45,33 +45,32 @@ estudiante = {
 print(estudiante)
 
 #4
-print(len(estudiante))
+print(len(estudiante)) #Muestra cuantos items hay en el diccionario.
 
 #5
-student = list(estudiante["Skills"])
+student = list(estudiante["Skills"]) #Esto solo convierte la llave y los items en una lista.
 print(type(student))
 
 #6
-estudiante["Skills"] = "C++"
+estudiante["Skills"] = "C++" #Agrega un item en la llave que te gustaría agregarla.
 print(estudiante)
 
 #7
-llaves = estudiante.keys()
+llaves = estudiante.keys() #Solo convierte las llaves del diccionario en lista.
 print(llaves)
 
 #8
-values = estudiante.values()
+values = estudiante.values() #Convierte los valores del diccionario en una lista.
 print(values)
 
 #9
-print(estudiante.items())
+print(estudiante.items()) #Esto cambia el diccionario a una lista de tuplas.
 
 #10
-del estudiante["Edad"]
+del estudiante["Edad"] #Elimina uno de los items que estan dentro del diccionario.
 print(estudiante)
 
 #11
-
 print(dog) #no va a mostrar nada en pantalla porque acaba de ser eliminado.
 del dog
 
