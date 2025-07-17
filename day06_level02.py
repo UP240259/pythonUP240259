@@ -1,15 +1,3 @@
-#Ejercicios nivel 1.
-tupla = tuple()
-hermanos = ("Kenai","Angel","David","Alejandro","Alan", "Junior")
-hermanas =("Noemi","Amilenix","Yamileth","Kimora","Ruth","Herlinda")
-siblings = hermanas + hermanos
-print(siblings)
-print("i have ", len(siblings), "siblings.")
-family_mambers = hermanas + hermanos
-print(family_mambers)
-
-
-
 #Ejercicios nivel 2
 fruits = ("apple","orange","pear","grape","Mango")
 vegetables = ("Cucumber","Potato","Carrot","Cabage","Tomato")
@@ -26,4 +14,3 @@ del food_stuff_tp
 nordic_countries = ("Denmark","Finland","Iceland","Norway","Sweden",)
 print("Estonia" in nordic_countries) #Devuelve false.
 print("Iceland" in nordic_countries) #Devuelve true.
-
